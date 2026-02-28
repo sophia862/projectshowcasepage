@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*
+Author: Sophia Harlos
+Last Updated: Feb 25, 2026
+*/
+
+/*===== reset =====*/
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*===== backgrounds =====*/
+body {
+  background-color: #7b8ad9;
+  color: #252a46;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 300;
+}
+
+/*===== fonts =====*/
+p {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 31px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+
+/*===== buttons/links =====*/
+a {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.25px;
+  color: #252a46;
+}
+
+.buttons a {
+  background-color: #c5d8ff;
+  border: 2px solid #252a46;
+  color: #252a46;
+  border-radius: 16px;
+}
+
+.buttons a:hover {
+  background-color: #dfebff;
+}
+
+.buttons a:active {
+  background-color: #dfebff;
+}

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/*
+Author: Sophia Harlos
+Last Updated: Feb 24, 2026
+*/
+
+/*===== main =====*/
+.content {
+  display: flex;
+  flex-flow: column;
+  row-gap: 16px;
+}
+
+.hero {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.hero-left,
+.hero-right {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  row-gap: 16px;
+}
+
+.hero-right img {
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.projects {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 16px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.buttons a {
+  padding: 16px 24px;
+  text-align: center;
+}
+
+/*===== mobile small =====*/
+@media screen and (max-width: 480px) {
+  .content {
+    margin: 1rem 2rem;
+  }
+  .buttons a {
+    width: 100%;
+  }
+  .hero {
+    justify-content: center;
+  }
+}
+
+/*===== mobile large =====*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .content {
+    margin: 2rem 3rem;
+  }
+  .buttons a {
+    width: 100%;
+  }
+  .hero {
+    justify-content: center;
+  }
+}
+
+/*===== tablet =====*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .content {
+    margin: 3rem 4rem;
+  }
+}
+
+/*===== desktop =====*/
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .content {
+    margin: 4rem 5rem;
+  }
+  .hero-left,
+  .hero-right {
+    max-width: 49%;
+  }
+}
+
+/*===== large desktop =====*/
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  .content {
+    margin: 5rem 6rem;
+  }
+  .hero-left,
+  .hero-right {
+    max-width: 49%;
+  }
+}
+
+/*===== extra large =====*/
+@media screen and (min-width: 1440px) {
+  .content {
+    margin: 6rem 7rem;
+  }
+  .hero-left,
+  .hero-right {
+    max-width: 49%;
+  }
+}
