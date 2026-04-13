@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 6
+   Review Assignment
+
+   Columns Style Sheet
+   Author: Sophia Harlos
+   Date:   Apr 13, 2026
+
+   Filename:         dlr_columns2.css
+
+*/
+
+
+
+/* Column Styles */
+@media screen and (min-width: 641px){
+   p {
+      column-count: 3;
+      column-gap: 20px;
+      column-rule: 1px solid black;
+   }
+}
